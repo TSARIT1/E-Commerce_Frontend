@@ -1,0 +1,110 @@
+.datails-page{
+  margin-top: 10%;
+}
+
+
+.main-img {
+  border-radius: 12px;
+  transition: 0.3s;
+}
+
+.main-img:hover {
+  transform: scale(1.03);
+}
+
+/* THUMBNAILS */
+.thumb-img {
+  width: 80px;
+  height: 80px;
+  border-radius: 10px;
+  object-fit: cover;
+  cursor: pointer;
+  border: 2px solid #ddd;
+  transition: 0.3s;
+}
+
+.thumb-img:hover {
+  border-color: #ff4d4d;
+  transform: scale(1.1);
+}
+
+/* BUTTONS */
+.btn-warning,
+.btn-danger {
+  border-radius: 8px;
+  font-size: 16px;
+  letter-spacing: 0.5px;
+}
+
+/* SELECT & INPUT */
+.form-select,
+.form-control {
+  border-radius: 8px;
+  padding: 8px 12px;
+  font-size: 15px;
+}
+
+/* LIKE / DISLIKE */
+.btn-outline-primary,
+.btn-outline-danger {
+  border-radius: 10px;
+}
+
+/* CARD STYLING */
+.card {
+  border-radius: 14px;
+  overflow: hidden;
+  transition: 0.3s;
+  border: none;
+}
+
+.card:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 10px 25px rgba(0, 0, 0, 0.15);
+}
+
+.card-img-top {
+  height: 200px;
+  object-fit: cover;
+}
+
+/* HEADINGS */
+h2, h4, h5 {
+  letter-spacing: 0.5px;
+}
+
+/* SPECIFICATIONS LIST */
+ul li {
+  margin-bottom: 6px;
+  font-size: 15px;
+}
+
+/* Q&A */
+.qna-box {
+  background: #f8f8f8;
+  padding: 12px 15px;
+  border-radius: 10px;
+  border-left: 4px solid #ff4d4d;
+  margin-bottom: 12px;
+}
+
+/* RESPONSIVE */
+@media(max-width: 768px) {
+  .thumb-img {
+    width: 65px;
+    height: 65px;
+  }
+
+  .card-img-top {
+    height: 160px;
+  }
+}
+
+
+
+
+
+
+
+
+

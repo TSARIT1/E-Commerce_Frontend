@@ -1,0 +1,234 @@
+
+
+.coffee {
+  padding: 30px;
+  background: #f7f7f7;
+}
+
+.coffee-container {
+  display: flex;
+  gap: 40px;
+  background: white;
+  padding: 25px;
+  border-radius: 12px;
+  box-shadow: 0 4px 20px rgba(0,0,0,0.1);
+}
+
+
+.coffee-left {
+  flex: 1;
+}
+
+.coffee-main-img {
+  width: 100%;
+  height: 380px;
+  object-fit: cover;
+  border-radius: 12px;
+  box-shadow: 0 4px 15px rgba(0,0,0,0.2);
+}
+
+.coffee-thumb-row {
+  display: flex;
+  gap: 12px;
+  margin-top: 15px;
+}
+
+.coffee-thumb {
+  width: 100px;
+  height: 100px;
+  object-fit: cover;
+  border-radius: 10px;
+  cursor: pointer;
+  transition: 0.3s;
+  border: 2px solid transparent;
+}
+
+.coffee-thumb:hover {
+  border-color: #ff7b00;
+  transform: scale(1.05);
+}
+
+
+.coffee-right {
+  flex: 1;
+}
+
+.coffee-title {
+  font-size: 32px;
+  font-weight: 700;
+}
+
+.coffee-rating {
+  margin-top: 5px;
+  color: #ffaa00;
+  font-size: 20px;
+}
+
+.coffee-price {
+  margin-top: 10px;
+  font-size: 26px;
+  font-weight: bold;
+  color: #ff2929;
+}
+
+.coffee-price del {
+  color: #888;
+  margin-left: 10px;
+}
+
+.coffee-description {
+  margin: 15px 0;
+  color: #444;
+  line-height: 1.6;
+}
+
+.coffee-features li {
+  margin: 6px 0;
+  font-size: 16px;
+  list-style: none;
+}
+
+
+.coffee-buttons {
+  display: flex;
+  gap: 15px;
+  margin: 20px 0;
+}
+
+.coffee-buy-btn {
+  padding: 12px 25px;
+  background: #ff2929;
+  color: white;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+  transition: 0.3s;
+  font-size: 16px;
+}
+
+.coffee-buy-btn:hover {
+  background: #cc0000;
+}
+
+.coffee-cart-btn {
+  padding: 12px 25px;
+  background: #ff7b00;
+  color: white;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+  transition: 0.3s;
+  font-size: 16px;
+}
+
+.coffee-cart-btn:hover {
+  background: #cc5f00;
+}
+
+
+.coffee-quantity-box {
+  margin-top: 20px;
+}
+
+.coffee-qty-input {
+  width: 80px;
+  padding: 8px;
+  margin-left: 10px;
+  border-radius: 6px;
+  border: 1px solid #ccc;
+}
+
+
+.coffee-pincode-box {
+  margin-top: 20px;
+  display: flex;
+  gap: 10px;
+  align-items: center;
+}
+
+.coffee-pincode-input {
+  padding: 10px;
+  width: 150px;
+  border-radius: 6px;
+  border: 1px solid #ccc;
+}
+
+.coffee-pincode-btn {
+  padding: 10px 20px;
+  background: #333;
+  color: white;
+  border: none;
+  border-radius: 6px;
+  cursor: pointer;
+  transition: 0.3s;
+}
+
+.coffee-pincode-btn:hover {
+  background: #000;
+}
+
+
+.coffee-like-box {
+  margin-top: 25px;
+  display: flex;
+  gap: 15px;
+}
+
+.coffee-like-btn,
+.coffee-dislike-btn {
+  padding: 10px 20px;
+  background: #eaeaea;
+  border-radius: 6px;
+  border: 1px solid #ccc;
+  cursor: pointer;
+  transition: 0.3s;
+}
+
+.coffee-like-btn:hover {
+  background: #d4ffd4;
+}
+
+.coffee-dislike-btn:hover {
+  background: #ffd4d4;
+}
+
+
+.coffee-review-box {
+  margin-top: 30px;
+  padding: 20px;
+  background: #f1f1f1;
+  border-radius: 10px;
+}
+
+.coffee-review-text {
+  width: 100%;
+  height: 100px;
+  padding: 10px;
+  border-radius: 6px;
+  border: 1px solid #ccc;
+  resize: none;
+  margin-top: 10px;
+}
+
+.coffee-submit-review {
+  margin-top: 10px;
+  padding: 10px 25px;
+  background: #ff7b00;
+  color: white;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+}
+
+
+.coffee-review-list {
+  margin-top: 25px;
+}
+
+.coffee-review-item {
+  padding: 15px;
+  background: #fff;
+  border-radius: 8px;
+  box-shadow: 0 3px 10px rgba(0,0,0,0.1);
+  margin-bottom: 15px;
+}

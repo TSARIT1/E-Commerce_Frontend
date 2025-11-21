@@ -1,0 +1,48 @@
+
+.scroll-container {
+  width: 100%;
+  overflow: hidden;
+  border-radius: 10px;
+  background: #ffebdd;
+  padding: 15px 0;
+  position: relative;
+}
+
+
+.scroll-content {
+  display: inline-flex;
+  gap: 20px;
+  animation-timing-function: linear;
+  animation-iteration-count: infinite;
+}
+
+.scroll-content img {
+  width: 170px;
+  height: 140px;
+  object-fit: cover;
+  border-radius: 12px;
+  box-shadow: 0 4px 12px rgba(255, 255, 255, 0.15);
+  transition: transform .3s ease;
+}
+
+.scroll-content img:hover {
+  transform: scale(1);
+}
+
+
+.scroll-ltr .scroll-content {
+  animation-name: scroll-left-to-right;
+  animation-duration: 90s;
+}
+
+@keyframes scroll-left-to-right {
+  0% { transform: translateX(-100%); }
+  100% { transform: translateX(100%); }
+}
+
+
+
+
+.scroll-container:hover .scroll-content {
+  animation-play-state: paused;
+}

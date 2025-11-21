@@ -1,0 +1,287 @@
+
+.Bike-product-container {
+  padding: 30px;
+  font-family: "Poppins", sans-serif;
+  background: #f7f7f7;
+  margin-top: 5%;
+}
+
+
+.Bike-product-hero {
+  text-align: center;
+  margin-bottom: 40px;
+}
+
+.Bike-product-title {
+  font-size: 38px;
+  font-weight: 800;
+  color: #ff2929;
+}
+
+.Bike-product-subtitle {
+  color: #444;
+  font-size: 18px;
+  margin-top: 10px;
+}
+
+
+.Bike-product-section {
+  display: flex;
+  gap: 30px;
+  align-items: center;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
+.Bike-product-image {
+  width: 430px;
+  border-radius: 18px;
+  box-shadow: 0 4px 20px rgba(0,0,0,0.15);
+}
+
+.Bike-product-content {
+  max-width: 480px;
+}
+
+.Bike-product-content h2 {
+  font-size: 28px;
+  color: #333;
+  font-weight: 700;
+}
+
+.Bike-product-content p {
+  color: #666;
+  line-height: 1.7;
+  margin-top: 10px;
+}
+
+.Bike-product-features {
+  margin-top: 20px;
+  padding-left: 15px;
+}
+
+.Bike-product-features li {
+  margin-bottom: 10px;
+  font-size: 16px;
+  color: #444;
+}
+
+
+.Bike-rating {
+  margin-top: 20px;
+  font-size: 20px;
+  color: #ff7b00;
+  font-weight: bold;
+}
+
+.Bike-rating-count {
+  margin-left: 8px;
+  color: #444;
+  font-size: 16px;
+}
+
+
+.Bike-price {
+  margin-top: 20px;
+  font-size: 28px;
+  color: #ff2929;
+  font-weight: bold;
+}
+
+.Bike-cut-price {
+  margin-left: 10px;
+  text-decoration: line-through;
+  color: #777;
+  font-size: 20px;
+}
+
+
+.Bike-quantity-box {
+  margin-top: 20px;
+  display: flex;
+  align-items: center;
+  gap: 15px;
+}
+
+.Bike-qty-select {
+  padding: 8px 12px;
+  border-radius: 8px;
+  border: 2px solid #ccc;
+}
+
+
+.Bike-pincode-box {
+  margin-top: 20px;
+}
+
+.Bike-pincode-input {
+  padding: 8px 12px;
+  width: 150px;
+  border-radius: 8px;
+  border: 2px solid #ccc;
+}
+
+.Bike-check-btn {
+  padding: 8px 15px;
+  background: #ff7b00;
+  color: #fff;
+  border: none;
+  margin-left: 10px;
+  border-radius: 8px;
+  cursor: pointer;
+}
+
+
+.Bike-like-box {
+  margin-top: 20px;
+  display: flex;
+  gap: 15px;
+}
+
+.Bike-like-btn,
+.Bike-dislike-btn {
+  padding: 8px 16px;
+  border-radius: 8px;
+  font-weight: 600;
+  border: none;
+  cursor: pointer;
+  background: #eaeaea;
+}
+
+.Bike-like-btn:hover { background: #d5ffd5; }
+.Bike-dislike-btn:hover { background: #ffd3d3; }
+
+
+.Bike-buttons {
+  display: flex;
+  gap: 15px;
+  margin-top: 25px;
+}
+
+.Bike-add-btn {
+  padding: 12px 22px;
+  background: #ff7b00;
+  color: white;
+  border: none;
+  border-radius: 10px;
+  font-weight: 600;
+}
+
+.Bike-buy-btn {
+  padding: 12px 22px;
+  background: #ff2929;
+  color: white;
+  border: none;
+  border-radius: 10px;
+  font-weight: 600;
+}
+
+.Bike-add-btn:hover,
+.Bike-buy-btn:hover {
+  opacity: 0.85;
+}
+
+
+.Bike-spec-box,
+.Bike-highlights-box,
+.Bike-seller-box,
+.Bike-review-section,
+.Bike-comment-box,
+.Bike-qna-section {
+  background: #fff;
+  padding: 25px;
+  border-radius: 12px;
+  box-shadow: 0 4px 12px rgba(0,0,0,0.08);
+  margin-top: 35px;
+  border-left: 5px solid #ff2929;
+}
+
+.Bike-spec-box h3,
+.Bike-highlights-box h3,
+.Bike-seller-box h3,
+.Bike-review-section h3,
+.Bike-comment-box h3,
+.Bike-qna-section h3 {
+  font-weight: 700;
+  margin-bottom: 15px;
+}
+
+.Bike-spec-box ul,
+.Bike-highlights-box ul {
+  padding-left: 18px;
+}
+
+.Bike-spec-box li,
+.Bike-highlights-box li {
+  margin-bottom: 8px;
+  font-size: 16px;
+}
+
+
+.Bike-seller-box p {
+  margin: 6px 0;
+  color: #444;
+}
+
+
+.Bike-review-card {
+  background: #f9f9f9;
+  padding: 15px;
+  margin-top: 15px;
+  border-radius: 8px;
+  border-left: 4px solid #ff7b00;
+}
+
+.Bike-review-stars {
+  font-size: 18px;
+  color: #ff7b00;
+  font-weight: bold;
+}
+
+
+.Bike-comment-input {
+  width: 100%;
+  height: 120px;
+  border-radius: 10px;
+  border: 2px solid #ccc;
+  padding: 12px;
+}
+
+.Bike-comment-btn {
+  margin-top: 12px;
+  background: #ff2929;
+  color: #fff;
+  border: none;
+  padding: 10px 22px;
+  border-radius: 8px;
+  cursor: pointer;
+  font-weight: 600;
+}
+
+
+.Bike-qna-box {
+  background: #fafafa;
+  padding: 12px;
+  border-radius: 8px;
+  border-left: 4px solid #ff2929;
+  margin-top: 15px;
+}
+
+.Bike-qna-q {
+  font-weight: 600;
+}
+
+.Bike-qna-a {
+  color: #444;
+  margin-top: 5px;
+}
+
+
+@media (max-width: 768px) {
+  .Bike-product-title { font-size: 30px; }
+  .Bike-product-image { width: 100%; }
+  .Bike-product-content { text-align: center; }
+  .Bike-buttons { justify-content: center; }
+  .Bike-quantity-box { justify-content: center; }
+  .Bike-like-box { justify-content: center; }
+}
