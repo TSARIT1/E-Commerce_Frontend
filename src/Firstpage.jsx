@@ -17,22 +17,22 @@ function Firstpage() {
     <div className="carousel-item active">
       <img src={serum} className="d-block w-100" alt="..."/>
       <div className="carousel-caption d-none d-md-block">
-        <h5 className='firstpage-para'>First slide label</h5>
-        <p className='firstpage-para'>Some representative placeholder content for the first slide.</p>
+        <h5 className='firstpage-para'>Shopping</h5>
+        <p className='firstpage-para'>Everything You Need, Delivered to Your Doorstep.</p>
       </div>
     </div>
     <div className="carousel-item">
       <img src={earthbar} className="d-block w-100" alt="..."/>
       <div className="carousel-caption d-none d-md-block">
-        <h5 className='firstpage-para'>Second slide label</h5>
-        <p className='firstpage-para'>Some representative placeholder content for the second slide.</p>
+        <h5 className='firstpage-para'>Shopping</h5>
+        <p className='firstpage-para'>Everything You Need, Delivered to Your Doorstep.</p>
       </div>
     </div>
     <div className="carousel-item">
       <img src={glow} className="d-block w-100" alt="..."/>
       <div className="carousel-caption d-none d-md-block">
-        <h5 className='firstpage-para'>Third slide label</h5>
-        <p className='firstpage-para'>Some representative placeholder content for the third slide.</p>
+        <h5 className='firstpage-para'>Shopping</h5>
+        <p className='firstpage-para'>Everything You Need, Delivered to Your Doorstep.</p>
       </div>
     </div>
   </div>
