@@ -26,6 +26,14 @@ import Bike5page from "./Bike5page";
 import Scootypage from "./Scootypage";
 import Login from "./Login";
 import Register from "./Register";
+import ShippingInfo from "./ShippingInfo";
+import ReturnPolicy from "./ReturnPolicy";
+import HelpCenter from "./HelpCenter";
+import ReportIssue from "./ReportIssue";
+import TrackOrder from "./TrackOrder";
+import MyOrder from "./MyOrder";
+import PaymentSupport from "./PaymentSupport";
+import AccountSupport from "./AccountSupport";
 // import Scootypage from "./Scootypage";
 
 
@@ -58,7 +66,15 @@ function App() {
          <Route path="/login" element={<Login/>} />
           <Route path="/register" element={<Register/>} />
          <Route path="/scootypage" element={<Scootypage/>} />   
-
+       <Route path="/shippinginfo" element={<ShippingInfo/>} />  
+       <Route path="/returnpolicy" element={<ReturnPolicy/>} />  
+       <Route path="/helpcenter" element={<HelpCenter/>} />  
+       <Route path="/reportissue" element={<ReportIssue/>} /> 
+       <Route path="/trackorder"  element={<TrackOrder/>}/>
+       <Route path="/product" element={<Product/>}/>
+       <Route path="/myorder" element={<MyOrder/>}/>
+       <Route path="/paymentsupport" element={<PaymentSupport/>}/>
+       <Route path="/accountsupport" element={<AccountSupport/>}/>
       </Routes>
        <Footer/>
     </>

@@ -30,13 +30,15 @@ function Footer() {
             <a href='/'>
             <li>Home</li>
             </a>
-
-            <li>Products</li>
+             <a href='product'>
+            <li>Products</li></a>
             <a href='specialoffer'>
-            <li>Offers</li>
+            
             </a>
-            <li>My Orders</li>
-            <li>Contact</li>
+            <a href='myorder'>
+            <li>My Orders</li></a>
+            
+            
           </ul>
         </div>
 
@@ -44,11 +46,20 @@ function Footer() {
         <div className="footer-col">
           <h4 className="footer-title">Customer Care</h4>
           <ul className="footer-links">
-            <li>Help Center</li>
-            <li>Return Policy</li>
-            <li>Shipping Info</li>
-            <li>Track Order</li>
-            <li>Report Issue</li>
+            <a href='helpcenter'>
+            <li>Help Center</li></a>
+
+            <a href='returnpolicy'>
+            <li>Return Policy</li></a>
+
+            <a href='shippinginfo'>
+            <li>Shipping Info</li></a>
+              
+              <a href='trackorder'>
+            <li>Track Order</li></a>
+
+            <a href='reportissue'>
+            <li>Report Issue</li></a>
           </ul>
         </div>
 

@@ -1,0 +1,131 @@
+/* MAIN */
+.track-main {
+  font-family: 'Poppins', sans-serif;
+  background: linear-gradient(135deg, #fff4e6, #ffe6e6);
+  padding: 20px;
+}
+
+/* HEADER */
+.track-header {
+  background: linear-gradient(135deg, #ff7b00, #ff2929);
+  padding: 35px 20px;
+  border-radius: 20px;
+  text-align: center;
+  color: white;
+  box-shadow: 0 5px 20px rgba(0,0,0,0.2);
+}
+
+.track-header h1 {
+  font-size: 32px;
+  margin-bottom: 5px;
+}
+
+/* PRODUCT CARD */
+.track-card {
+  display: flex;
+  background: white;
+  padding: 20px;
+  margin-top: 25px;
+  border-radius: 15px;
+  align-items: center;
+  gap: 20px;
+  box-shadow: 0 8px 25px rgba(0,0,0,0.1);
+}
+
+.track-product-img {
+  width: 110px;
+  height: 110px;
+  border-radius: 10px;
+}
+
+/* TIMELINE */
+.track-timeline {
+  margin-top: 40px;
+  background: white;
+  padding: 25px;
+  border-radius: 15px;
+  box-shadow: 0 8px 25px rgba(0, 0, 0, 0.1);
+}
+
+.track-step {
+  position: relative;
+  padding-left: 40px;
+  margin-bottom: 35px;
+}
+
+.track-step:last-child {
+  margin-bottom: 0;
+}
+
+/* CIRCLE */
+.circle {
+  width: 22px;
+  height: 22px;
+  border-radius: 50%;
+  position: absolute;
+  left: 0;
+  top: 4px;
+}
+
+/* LINE BELOW CIRCLE */
+.line {
+  width: 3px;
+  height: 45px;
+  background: #ddd;
+  position: absolute;
+  left: 9px;
+  top: 25px;
+}
+
+/* STATUS COLORS */
+.completed .circle {
+  background: #4caf50;
+}
+.completed p {
+  color: #4caf50;
+}
+
+.current .circle {
+  background: #ff7b00;
+}
+.current p {
+  color: #ff7b00;
+}
+
+.upcoming .circle {
+  background: #bbbbbb;
+}
+.upcoming p {
+  color: #777;
+}
+
+/* HELP */
+.track-help {
+  background: #fff2d9;
+  padding: 20px;
+  border-left: 6px solid #ff7b00;
+  margin-top: 35px;
+  border-radius: 12px;
+  box-shadow: 0 5px 15px rgba(0,0,0,0.1);
+}
+
+/* FOOTER */
+.track-footer {
+  text-align: center;
+  margin-top: 30px;
+  color: #777;
+  font-size: 14px;
+}
+
+/* RESPONSIVE */
+@media (max-width: 600px) {
+  .track-card {
+    flex-direction: column;
+    text-align: center;
+  }
+
+  .track-product-img {
+    width: 150px;
+    height: 150px;
+  }
+}
