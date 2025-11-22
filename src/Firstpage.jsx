@@ -17,7 +17,11 @@ function Firstpage() {
     <div className="carousel-item active">
       <img src={serum} className="d-block w-100" alt="..."/>
       <div className="carousel-caption d-none d-md-block">
+
         <h5 className='firstpage-para'>Ecommerce</h5>
+
+        <h5 className='firstpage-para'>Shopping</h5>
+
         <p className='firstpage-para'>Everything You Need, Delivered to Your Doorstep.</p>
       </div>
     </div>
@@ -26,12 +30,20 @@ function Firstpage() {
       <div className="carousel-caption d-none d-md-block">
         <h5 className='firstpage-para'>Ecommerce</h5>
         <p className='firstpage-para'></p>
+
+        <h5 className='firstpage-para'>Shopping</h5>
+        <p className='firstpage-para'>Everything You Need, Delivered to Your Doorstep.</p>
+
       </div>
     </div>
     <div className="carousel-item">
       <img src={glow} className="d-block w-100" alt="..."/>
       <div className="carousel-caption d-none d-md-block">
+
         <h5 className='firstpage-para'>Ecommerce</h5>
+
+        <h5 className='firstpage-para'>Shopping</h5>
+
         <p className='firstpage-para'>Everything You Need, Delivered to Your Doorstep.</p>
       </div>
     </div>
