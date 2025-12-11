@@ -6,13 +6,13 @@ export default function TrackOrder() {
   return (
     <div className="track-main">
 
-      {/* HEADER */}
+      
       <div className="track-header">
         <h1>Track Your Order</h1>
         <p>Live delivery updates for your product</p>
       </div>
 
-      {/* ORDER CARD */}
+     
       <div className="track-card">
         <div className="track-card-left">
           <img
@@ -67,15 +67,15 @@ export default function TrackOrder() {
 
       </div>
 
-      {/* HELP SECTION */}
+      
       <div className="track-help">
         <h3><i class="fa-solid fa-phone"></i> Need Assistance?</h3>
-        <p>Email: help@trackorder.com</p>
+        <p>Email: help@trackorders.com</p>
         <p>Phone: +91 98765 43210</p>
       </div>
 
       <p className="track-footer">
-        © 2025 Your E-Commerce Store — All Rights Reserved
+        @ 2025 Your E-Commerce Store — All Rights Reserved
       </p>
     </div>
   );

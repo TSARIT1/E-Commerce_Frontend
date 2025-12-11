@@ -103,7 +103,7 @@ function Scootypage() {
         <p><strong>Address:</strong> Delhi, India</p>
       </div>
     
-      {/* Reviews */}
+      
       <div className="Bike-review-section">
         <h3>Customer Reviews</h3>
     

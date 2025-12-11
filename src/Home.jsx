@@ -12,6 +12,7 @@ import CategoryFilter from "./CategoryFilter";
 
 
 
+
 function App() {
 
   return (
@@ -19,13 +20,14 @@ function App() {
       
       <CategoryFilter/>
       <Firstpage/>
-      
-     
+
       <Product/>
       <Scrollbar/>
       
       <Specialoffer/>
       <Mostbuy/>
+    
+      
 
    
     </>

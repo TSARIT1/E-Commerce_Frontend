@@ -1,5 +1,5 @@
 
-// import { Link } from "react-router-dom";
+
 import React from 'react'
 import './Product.css'
 import Frock from "./assets/Frock.jpeg"

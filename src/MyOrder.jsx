@@ -32,7 +32,7 @@ export default function MyOrder() {
         </div>
       </div>
 
-      {/* -------- ORDER 2 -------- */}
+     
       <div className="order-card">
         <div className="order-img-box">
           <img src={Handbag} alt="product" />

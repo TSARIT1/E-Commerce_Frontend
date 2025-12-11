@@ -12,7 +12,7 @@
   transform: scale(1.03);
 }
 
-/* THUMBNAILS */
+
 .thumb-img {
   width: 80px;
   height: 80px;
@@ -28,7 +28,7 @@
   transform: scale(1.1);
 }
 
-/* BUTTONS */
+
 .btn-warning,
 .btn-danger {
   border-radius: 8px;
@@ -36,7 +36,7 @@
   letter-spacing: 0.5px;
 }
 
-/* SELECT & INPUT */
+
 .form-select,
 .form-control {
   border-radius: 8px;
@@ -44,13 +44,13 @@
   font-size: 15px;
 }
 
-/* LIKE / DISLIKE */
+
 .btn-outline-primary,
 .btn-outline-danger {
   border-radius: 10px;
 }
 
-/* CARD STYLING */
+
 .card {
   border-radius: 14px;
   overflow: hidden;
@@ -68,18 +68,17 @@
   object-fit: cover;
 }
 
-/* HEADINGS */
 h2, h4, h5 {
   letter-spacing: 0.5px;
 }
 
-/* SPECIFICATIONS LIST */
+
 ul li {
   margin-bottom: 6px;
   font-size: 15px;
 }
 
-/* Q&A */
+
 .qna-box {
   background: #f8f8f8;
   padding: 12px 15px;
@@ -88,7 +87,7 @@ ul li {
   margin-bottom: 12px;
 }
 
-/* RESPONSIVE */
+
 @media(max-width: 768px) {
   .thumb-img {
     width: 65px;

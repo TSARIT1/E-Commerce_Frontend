@@ -38,7 +38,7 @@ function Bike1page() {
         ₹54,999 <span className="Bike-cut-price">₹89,999</span>
       </h3>
 
-      {/* Quantity */}
+      
       <div className="Bike-quantity-box">
         <p>Quantity:</p>
         <select className="Bike-qty-select">
@@ -48,20 +48,20 @@ function Bike1page() {
         </select>
       </div>
 
-      {/* Pincode Check */}
+     
       <div className="Bike-pincode-box">
         <p>Check Delivery:</p>
         <input type="number" placeholder="Enter Pincode" className="Bike-pincode-input" />
         <button className="Bike-check-btn">Check</button>
       </div>
 
-      {/* Like Dislike */}
+    
       <div className="Bike-like-box">
         <button className="Bike-like-btn"><i className="fa-solid fa-thumbs-up"></i> Like</button>
         <button className="Bike-dislike-btn"><i className="fa-solid fa-thumbs-down"></i> Dislike</button>
       </div>
 
-      {/* Buttons */}
+     
       <div className="Bike-buttons">
         <button className="Bike-add-btn">Add to Cart</button>
         <button className="Bike-buy-btn">Buy Now</button>
@@ -70,7 +70,7 @@ function Bike1page() {
     </div>
   </div>
 
-  {/* Specifications */}
+  
   <div className="Bike-spec-box">
     <h3>Specifications</h3>
     <ul>
@@ -81,7 +81,7 @@ function Bike1page() {
     </ul>
   </div>
 
-  {/* Highlights */}
+  
   <div className="Bike-highlights-box">
     <h3>Highlights</h3>
     <ul>
@@ -92,7 +92,7 @@ function Bike1page() {
     </ul>
   </div>
 
-  {/* Seller Info */}
+ 
   <div className="Bike-seller-box">
     <h3>Seller Information</h3>
     <p><strong>Sold By:</strong> AutoWorld Pvt Ltd</p>
@@ -104,7 +104,7 @@ function Bike1page() {
     <p><strong>Address:</strong> Delhi, India</p>
   </div>
 
-  {/* Reviews */}
+ 
   <div className="Bike-review-section">
     <h3>Customer Reviews</h3>
 
@@ -131,14 +131,14 @@ function Bike1page() {
     </div>
   </div>
 
-  {/* Comment Box */}
+ 
   <div className="Bike-comment-box">
     <h3>Write a Comment</h3>
     <textarea className="Bike-comment-input" placeholder="Write your review..."></textarea>
     <button className="Bike-comment-btn">Submit</button>
   </div>
 
-  {/* Q&A */}
+
   <div className="Bike-qna-section">
     <h3>Questions & Answers</h3>
 

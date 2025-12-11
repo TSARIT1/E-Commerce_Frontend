@@ -5,13 +5,13 @@ export default function ShippingInfo() {
   return (
     <div className="ship-main">
 
-      {/* HEADER */}
+     
       <div className="ship-header">
         <h1>Shipping Information</h1>
         <p>Fast • Safe • Reliable Delivery</p>
       </div>
 
-      {/* MAIN BOX */}
+      
       <div className="ship-container">
 
         <div className="ship-section">

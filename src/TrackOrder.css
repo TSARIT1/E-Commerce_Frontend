@@ -1,11 +1,11 @@
-/* MAIN */
+
 .track-main {
   font-family: 'Poppins', sans-serif;
   background: linear-gradient(135deg, #fff4e6, #ffe6e6);
   padding: 20px;
 }
 
-/* HEADER */
+
 .track-header {
   background: linear-gradient(135deg, #ff7b00, #ff2929);
   padding: 35px 20px;
@@ -20,7 +20,7 @@
   margin-bottom: 5px;
 }
 
-/* PRODUCT CARD */
+
 .track-card {
   display: flex;
   background: white;
@@ -38,7 +38,7 @@
   border-radius: 10px;
 }
 
-/* TIMELINE */
+
 .track-timeline {
   margin-top: 40px;
   background: white;
@@ -57,7 +57,7 @@
   margin-bottom: 0;
 }
 
-/* CIRCLE */
+
 .circle {
   width: 22px;
   height: 22px;
@@ -67,7 +67,7 @@
   top: 4px;
 }
 
-/* LINE BELOW CIRCLE */
+
 .line {
   width: 3px;
   height: 45px;
@@ -77,7 +77,7 @@
   top: 25px;
 }
 
-/* STATUS COLORS */
+
 .completed .circle {
   background: #4caf50;
 }
@@ -99,7 +99,7 @@
   color: #777;
 }
 
-/* HELP */
+
 .track-help {
   background: #fff2d9;
   padding: 20px;
@@ -109,7 +109,7 @@
   box-shadow: 0 5px 15px rgba(0,0,0,0.1);
 }
 
-/* FOOTER */
+
 .track-footer {
   text-align: center;
   margin-top: 30px;
@@ -117,7 +117,7 @@
   font-size: 14px;
 }
 
-/* RESPONSIVE */
+
 @media (max-width: 600px) {
   .track-card {
     flex-direction: column;

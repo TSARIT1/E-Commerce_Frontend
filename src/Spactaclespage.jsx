@@ -80,14 +80,14 @@ function Spactaclespage() {
           </div>
         </div>
 
-        {/* Like Dislike */}
+       
         <div className="d-flex gap-3 my-3">
           <button className="btn btn-outline-primary"><i className="fa-solid fa-thumbs-up"></i>
  Like</button>
           <button className="btn btn-outline-danger"><i className="fa-solid fa-thumbs-down"></i> Dislike</button>
         </div>
 
-        {/* Buttons */}
+      
         <div className="mt-4 d-flex gap-3">
           <button className="btn btn-warning px-4 py-2 fw-semibold">
             Add to Cart

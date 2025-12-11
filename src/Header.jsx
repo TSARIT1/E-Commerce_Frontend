@@ -1,17 +1,20 @@
+
+
 import React from "react";
 import './Header.css'
 
 function Header() {
   return (
-    <header className="amazon-header ">
+    <header className="nav-header">
 
      
-      <div className="amazon-logo">
-       
-        <span className="dotin">Ecommerce</span>
+      <div className="nav-logo">
+        <a href="/">
+          <span className="dotin">Ecommerce</span>
+        </a>
       </div>
 
-   
+      
       <div className="search-section">
         <select className="search-category">
           <option>All</option>
@@ -23,7 +26,7 @@ function Header() {
 
         <input
           type="text"
-          placeholder="Search "
+          placeholder="Search"
           className="search-input"
         />
 
@@ -32,21 +35,35 @@ function Header() {
         </button>
       </div>
 
-     
+      
       <div className="login-btn-box">
         <button className="header-btn login-btn">
           <a href="login">Login</a>
-          </button>
+        </button>
+
         <button className="header-btn register-btn">
           <a href="register">Register</a>
-          </button>
+        </button>
+      </div>
+
+      
+      <div className="profile-icon">
+        <a href="profilepage">
+          <img
+            src="https://cdn-icons-png.flaticon.com/512/219/219969.png"
+            alt="avatar"
+            className="profile"
+          />
+        </a>
       </div>
 
       
       <div className="cart-box">
+        <a href="cart">
         <i className="fa-solid fa-cart-shopping"></i>
-        <span>Cart</span>
+        <span>Cart</span></a>
       </div>
+
     </header>
   );
 }

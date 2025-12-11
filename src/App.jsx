@@ -34,49 +34,50 @@ import TrackOrder from "./TrackOrder";
 import MyOrder from "./MyOrder";
 import PaymentSupport from "./PaymentSupport";
 import AccountSupport from "./AccountSupport";
-// import Scootypage from "./Scootypage";
+import ProfilePage from "./ProfilePage";
+import Cart from "./Cart";
 
-
-// import Imageslider from "./Imageslider";
 
 
 function App() {
 
   return (
     <>
-      <Header/>
+      <Header />
 
-         <Routes>
+      <Routes>
         <Route path="/" element={<Home />} />
-        <Route path='/mensjacketpage' element={<Mensjacketpage/>} />
-        <Route path='/frockpage' element={<Frockpage/>} />
-        <Route path='/spactaclespage' element={<Spactaclespage/>} />
-        <Route path='/earringspage' element={<Earringspage/>} />
-        <Route path='/shoespage' element={<Shoespage/>} />
-        <Route path='/handbagpage' element={<Handbagpage/>} />
-        <Route path='/mixturepage' element={<Mixturepage/>} />
-        <Route path='/airpodspage' element={<Airpodpage/>} />
-        <Route path='/headphonepage' element={<Headphonepage/>} />
-        <Route path="/coffeepage" element={<Coffeepage/>}/>
-        <Route path="/bike1" element={<Bike1page/>} />
-         <Route path="/bike2" element={<Bike2page/>} />
-         <Route path="/bike3" element={<Bike3page/>} />
-         <Route path="/bike4" element={<Bike4page/>} />
-         <Route path="/bike5" element={<Bike5page/>} />
-         <Route path="/login" element={<Login/>} />
-          <Route path="/register" element={<Register/>} />
-         <Route path="/scootypage" element={<Scootypage/>} />   
-       <Route path="/shippinginfo" element={<ShippingInfo/>} />  
-       <Route path="/returnpolicy" element={<ReturnPolicy/>} />  
-       <Route path="/helpcenter" element={<HelpCenter/>} />  
-       <Route path="/reportissue" element={<ReportIssue/>} /> 
-       <Route path="/trackorder"  element={<TrackOrder/>}/>
-       <Route path="/product" element={<Product/>}/>
-       <Route path="/myorder" element={<MyOrder/>}/>
-       <Route path="/paymentsupport" element={<PaymentSupport/>}/>
-       <Route path="/accountsupport" element={<AccountSupport/>}/>
+        <Route path='/mensjacketpage' element={<Mensjacketpage />} />
+        <Route path='/frockpage' element={<Frockpage />} />
+        <Route path='/spactaclespage' element={<Spactaclespage />} />
+        <Route path='/earringspage' element={<Earringspage />} />
+        <Route path='/shoespage' element={<Shoespage />} />
+        <Route path='/handbagpage' element={<Handbagpage />} />
+        <Route path='/mixturepage' element={<Mixturepage />} />
+        <Route path='/airpodspage' element={<Airpodpage />} />
+        <Route path='/headphonepage' element={<Headphonepage />} />
+        <Route path="/coffeepage" element={<Coffeepage />} />
+        <Route path="/bike1" element={<Bike1page />} />
+        <Route path="/bike2" element={<Bike2page />} />
+        <Route path="/bike3" element={<Bike3page />} />
+        <Route path="/bike4" element={<Bike4page />} />
+        <Route path="/bike5" element={<Bike5page />} />
+        <Route path="/login" element={<Login />} />
+        <Route path="/register" element={<Register />} />
+        <Route path="/scootypage" element={<Scootypage />} />
+        <Route path="/shippinginfo" element={<ShippingInfo />} />
+        <Route path="/returnpolicy" element={<ReturnPolicy />} />
+        <Route path="/helpcenter" element={<HelpCenter />} />
+        <Route path="/reportissue" element={<ReportIssue />} />
+        <Route path="/trackorder" element={<TrackOrder />} />
+        <Route path="/product" element={<Product />} />
+        <Route path="/myorder" element={<MyOrder />} />
+        <Route path="/paymentsupport" element={<PaymentSupport />} />
+        <Route path="/accountsupport" element={<AccountSupport />} />
+        <Route path="/profilepage" element={<ProfilePage />} />
+        <Route path="/cart" element={<Cart />} />
       </Routes>
-       <Footer/>
+      <Footer />
     </>
   )
 }
